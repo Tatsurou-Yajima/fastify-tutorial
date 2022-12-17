@@ -1,0 +1,21 @@
+## はじめに
+本リポジトリは、 Fastify を使用した簡単なAPIです。
+
+下記動画に沿って作成しました。
+https://www.youtube.com/watch?v=Lk-uVEVGxOA
+
+## 使い方
+1. 本リポジトリをクローンします
+2. `package.json` のあるディレクトリに移動します
+3. `npm i` コマンドを実行します
+4. `npm run dev` コマンドを実行します
+5. HTTPリクエストを送信します
+
+## HTTPリクエストについて
+### Chrome の 拡張機能(Talend API Tester)でリクエストを送る場合
+`talend-api.json` をインポートして使用してください。
+
+### VSCode の 拡張機能などでHTTPリクエストを送る場合
+`test.http` を開き、 `Send Request` ボタンを押してリクエストを送信してください。
+
+その他、Curlコマンドなどでも動作します。
